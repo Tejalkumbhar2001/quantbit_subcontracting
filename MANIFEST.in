@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include quantbit_subcontracting *.css
+recursive-include quantbit_subcontracting *.csv
+recursive-include quantbit_subcontracting *.html
+recursive-include quantbit_subcontracting *.ico
+recursive-include quantbit_subcontracting *.js
+recursive-include quantbit_subcontracting *.json
+recursive-include quantbit_subcontracting *.md
+recursive-include quantbit_subcontracting *.png
+recursive-include quantbit_subcontracting *.py
+recursive-include quantbit_subcontracting *.svg
+recursive-include quantbit_subcontracting *.txt
+recursive-exclude quantbit_subcontracting *.pyc
